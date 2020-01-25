@@ -1,0 +1,1 @@
+As the name of this folder would imply, keep anything in Unity outside of this folder. Danke.
