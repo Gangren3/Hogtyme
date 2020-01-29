@@ -4,11 +4,87 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Armature
+    100004: Head
+    100006: Head_end
+    100008: LegForwardLower.L
+    100010: LegForwardLower.L_end
+    100012: LegForwardLower.R
+    100014: LegForwardLower.R_end
+    100016: LegForwardMid.L
+    100018: LegForwardMid.R
+    100020: LegForwardUpper.L
+    100022: LegForwardUpper.R
+    100024: LegHindwardLower.L
+    100026: LegHindwardLower.L_end
+    100028: LegHindwardLower.R
+    100030: LegHindwardLower.R_end
+    100032: LegHindwardMid.L
+    100034: LegHindwardMid.R
+    100036: LegHindwardUpper.L
+    100038: LegHindwardUpper.R
+    100040: OathogOptimized
+    100042: SpineLowerLower
+    100044: SpineLowerMid
+    100046: SpineUpperMid
+    100048: SpineUpperUpper
+    100050: Tail.000
+    100052: Tail.001
+    100054: Tail.002
+    100056: Tail.002_end
+    100058: PigtailOpti
     400000: //RootNode
+    400002: Armature
+    400004: Head
+    400006: Head_end
+    400008: LegForwardLower.L
+    400010: LegForwardLower.L_end
+    400012: LegForwardLower.R
+    400014: LegForwardLower.R_end
+    400016: LegForwardMid.L
+    400018: LegForwardMid.R
+    400020: LegForwardUpper.L
+    400022: LegForwardUpper.R
+    400024: LegHindwardLower.L
+    400026: LegHindwardLower.L_end
+    400028: LegHindwardLower.R
+    400030: LegHindwardLower.R_end
+    400032: LegHindwardMid.L
+    400034: LegHindwardMid.R
+    400036: LegHindwardUpper.L
+    400038: LegHindwardUpper.R
+    400040: OathogOptimized
+    400042: SpineLowerLower
+    400044: SpineLowerMid
+    400046: SpineUpperMid
+    400048: SpineUpperUpper
+    400050: Tail.000
+    400052: Tail.001
+    400054: Tail.002
+    400056: Tail.002_end
+    400058: PigtailOpti
     2100000: OathogMat
+    2100002: Easymode
     2300000: //RootNode
+    2300002: OathogOptimized
     3300000: //RootNode
+    3300002: OathogOptimized
     4300000: OathogOptimized
+    4300002: PigtailOpti
+    7400000: Armature|Action
+    7400002: Armature|ArmatureAction
+    7400004: Armature|HeadAction
+    7400006: Armature|HoofForward.LAction
+    7400008: Armature|HoofForward.RAction
+    7400010: Armature|HoofHindward.LAction
+    7400012: Armature|HoofHindward.RAction
+    7400014: Armature|HunchAction
+    7400016: Armature|LightAction
+    7400018: Armature|TailendAction
+    7400020: Armature|TailstartAction
+    9500000: //RootNode
+    13700000: OathogOptimized
+    13700002: PigtailOpti
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -29,7 +105,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -61,8 +137,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -84,12 +160,12 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: SpineLowerMid
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
